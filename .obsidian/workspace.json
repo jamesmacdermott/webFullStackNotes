@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "e59f8c42247ed40e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6fb1da8d9ded13b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66a4e6132805f235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/JavaScript/3. Built-in Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c866bb34978a77e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/JavaScript/5. Buttons.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71c0221ed9d1b4b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "abbeafdfc77c496f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8761959d5b7e38c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0be5f683479a2a81",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "63066030818332aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "34a6c8ae3a1f5b85",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab6f81fd62ed28e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a5c884848100c84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Frontend/JavaScript/5. Buttons.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d3f8380f89e8421",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Frontend/JavaScript/5. Buttons.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ac35cecf20363b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cef7b399018644db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Frontend/JavaScript/5. Buttons.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2c866bb34978a77e",
+  "lastOpenFiles": [
+    "Frontend/JavaScript/3. Built-in Objects.md",
+    "Frontend/JavaScript/5. Buttons.md",
+    "Frontend/JavaScript/4. Variables.md",
+    "New folder",
+    "Frontend/JavaScript/2. Strings and Methods.md",
+    "Frontend/JavaScript/1. Basics.md"
+  ]
+}

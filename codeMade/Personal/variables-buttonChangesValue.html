@@ -1,0 +1,42 @@
+<!-- <html>
+    <body>
+    <button onclick="quantity++;">Add</button>
+    <button onclick="quantity = 0">Reset</button>
+    <button onclick="console.log(quantity)">Print</button>
+    <script>
+        let quantity = 0;
+    </script>
+    </body>
+</html>-->
+
+<!-- Here is some better code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Example</title>
+</head>
+<body>
+    <button id="addButton">Add</button>
+    <button id="resetButton">Reset</button>
+    <button id="printButton">Print</button>
+
+    <script>
+        let quantity = 0;
+
+        document.getElementById('addButton').addEventListener('click', function() {
+            quantity++;
+        });
+
+        document.getElementById('resetButton').addEventListener('click', function() {
+            quantity = 0;
+        });
+
+        document.getElementById('printButton').addEventListener('click', function() {
+            console.log(quantity);
+        });
+    </script>
+</body>
+</html>
+
