@@ -22,4 +22,4 @@
 
 - Introduction, uses and background : https://youtu.be/NSxGZ7fC5AA?si=WmNFfHj-SbUEHdfc
 
-- All of JavaScript (22 hour video) : https://youtu.be/EerdGm-ehJQ?si=-RoLqTYGNkU-meeA
+- JavaScript beginner to pro (22 hour video) : https://youtu.be/EerdGm-ehJQ?si=-RoLqTYGNkU-meeA

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            DOM
+        </title>
+    </head>
+    <body>
+        <div id="subscribeSpace">
+            <button id="subscribe-Button">Subscribe</button>
+
+        </div>
+        <script>
+            const subscribeButton = document.getElementById('subscribe-Button');
+            const subscribeSpace = document.getElementById('subscribeSpace')
+            let unsubscribeButton;
+            let subscribeCondition = localStorage.getItem('subscribed') || false;
+            if (subscribeCondition === 'true'){
+                subscribe();
+            }
+            subscribeButton.addEventListener('click',function(){
+                subscribe();
+            });
+            function subscribe(){
+                subscribeButton.innerHTML = 'Subscribed';
+                subscribeCondition = localStorage.setItem('subscribed','true');
+                if (!unsubscribeButton){
+                    unsubscribeButton = document.createElement('button');
+                    unsubscribeButton.textContent = "X";
+                    unsubscribeButton.addEventListener('click',function(){
+                        unsubscribe();
+                    });
+                    subscribeSpace.appendChild(unsubscribeButton);
+                }
+            }
+            function unsubscribe(){
+                subscribeButton.innerHTML = 'Subscribe';
+                subscribeCondition = localStorage.setItem('subscribed','false');
+                unsubscribeButton.remove();
+                unsubscribeButton = null;
+            }
+            
+        </script>
+    </body>
+</html>

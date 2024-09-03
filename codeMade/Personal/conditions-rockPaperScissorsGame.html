@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Rock Paper Scissors
+        </title>
+    </head>
+    <body>
+        <h2>Rock Paper Scissors</h2>
+        <p>Choose:</p>
+        <button onclick="chooseRock()">Rock</button>
+        <button onclick="choosePaper()">Paper</button>
+        <button onclick="chooseScissors()">Scissors</button>
+        
+        <script>
+            let playerChoice; let computerChoice; let winner;
+
+            function outputWinner(playerChoice,computerChoice){
+                if (playerChoice === 1){
+                    if (computerChoice === 2){
+                        winner = 'Computer'
+                    }
+                    else if (computerChoice === 3){
+                        winner = 'Player'
+                    }
+                    else{
+                        winner = 'Draw'
+                    }
+                };
+                if (playerChoice === 2){
+                    if (computerChoice === 2){
+                        winner = 'Draw'
+                    }
+                    else if (computerChoice === 3){
+                        winner = 'Computer'
+                    }
+                    else{
+                        winner = 'Player'
+                    }
+                };
+                if (playerChoice === 3){
+                    if (computerChoice === 2){
+                        winner = 'Player'
+                    }
+                    else if (computerChoice === 3){
+                        winner = 'Draw'
+                    }
+                    else{
+                        winner = 'Computer'
+                    }
+                };
+                if (winner === 'Draw'){
+                    alert("The game was a Draw")
+                }
+                else{
+                    alert(`The winner is:  ${winner}!`)
+                };
+            };
+
+            function getComputerChoice(){
+                let choice = Math.floor(Math.random() * 3) + 1;
+                let choiceString;
+                if (choice === 1){
+                    choiceString = 'Rock'
+                }
+                else if (choice === 2){
+                    choiceString = 'Paper'
+                }
+                else{
+                    choiceString = 'Scissors'
+                };
+                alert(`The computer chose: ${choiceString}`)
+                return choice
+            };
+            function chooseRock(){
+                playerChoice = 1;
+                computerChoice = getComputerChoice();
+                outputWinner(playerChoice,computerChoice);
+            };
+            function choosePaper(){
+                playerChoice = 2;
+                computerChoice = getComputerChoice();
+                outputWinner(playerChoice,computerChoice);
+            };
+            function chooseScissors(){
+                playerChoice = 3;
+                computerChoice = getComputerChoice();
+                outputWinner(playerChoice,computerChoice);
+            };
+        </script>
+    </body>
+</html>
