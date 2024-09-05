@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/JavaScript/9. DOM (Document Object Model).md",
+                "file": "Frontend/JavaScript/10. Combining CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/JavaScript/9. DOM (Document Object Model).md",
+                "file": "Frontend/JavaScript/10. Combining CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/JavaScript/9. DOM (Document Object Model).md",
+                "file": "Frontend/JavaScript/10. Combining CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/JavaScript/9. DOM (Document Object Model).md"
+                "file": "Frontend/JavaScript/10. Combining CSS.md"
               }
             }
           }
@@ -148,25 +148,32 @@
   },
   "active": "2c866bb34978a77e",
   "lastOpenFiles": [
-    "Frontend/JavaScript/5. Buttons.md",
+    "codeMade/Personal/objects-productsPageWithJSON",
+    "codeMade/Personal/CCS&JS - subscribe button.html",
+    "codeMade/Personal/cssJs/subscribeButton.css",
+    "codeMade/Online/Variables/Variables-cartexample.html",
+    "codeMade/Online/Variables/Variables-cartexample_files/audio-devices.html",
+    "codeMade/Online/Variables/Variables-cartexample_files",
+    "codeMade/Online/Variables",
+    "codeMade/Online/New folder",
+    "codeMade/Personal/DOM/DOM-subscribeButton.html",
+    "codeMade/Personal/DOM/DOM-passwordCheckWithKeyboardEnter.html",
+    "codeMade/Personal/DOM",
     "Frontend/JavaScript/9. DOM (Document Object Model).md",
-    "codeMade/Personal/DOM.html",
+    "Frontend/JavaScript/10. Combining CSS.md",
+    "Frontend/JavaScript/3. Built-in Objects.md",
+    "Frontend/JavaScript/5. Buttons.md",
+    "Images/Pasted image 20240905191610.png",
+    "Frontend/HTML/Tags.md",
+    "Images/Pasted image 20240905184453.png",
+    "Images/Pasted image 20240905184437.png",
+    "Images/Pasted image 20240905184355.png",
     "Frontend/JavaScript/8. Objects.md",
     "Frontend/Videos Watched.md",
     "Frontend/JavaScript/2. Strings and Methods.md",
-    "codeMade/Personal/objects-productPageWithJSON.html",
-    "codeMade/Personal/objects-productsPageWithJSON",
-    "codeMade/Personal/objects-json",
-    "codeMade/Personal/objects-scoreIncludedInRPSGame.html",
     "Frontend/JavaScript/7. Functions.md",
     "Frontend/JavaScript/6. Conditions & Loops.md",
-    "codeMade/Personal/conditions-rockPaperScissorsGame.html",
-    "codeMade/Personal/conditions-rockPaperScissorsGame",
-    "codeMade/Personal/booleans-rockPaperScissors.html",
-    "codeMade/Personal/booleans-rockPaperScissors",
-    "Frontend/JavaScript/3. Built-in Objects.md",
     "Frontend/JavaScript/4. Variables.md",
-    "New folder",
     "Frontend/JavaScript/1. Basics.md"
   ]
 }

@@ -1,0 +1,15 @@
+.subscribeButtonShape{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out
+}
+.subscribeButtonDesignDefault{
+    background-color: gainsboro;
+    color: red;
+}
+.subscribeButtonDesignSub{
+    background-color: red;
+    color: white;
+}

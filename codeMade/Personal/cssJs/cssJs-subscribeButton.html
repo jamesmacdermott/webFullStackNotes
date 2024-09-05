@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS & JS subButton
+        </title>
+        <link rel="stylesheet" href="subscribeButton.css" />
+    </head>
+    <body>
+        <div class="js-subscribeSpace">
+            <button class="js-subscribe-Button subscribeButtonShape subscribeButtonDesignDefault">Subscribe</button>
+        </div>
+        <script>
+            const subscribeButton = document.querySelector('.js-subscribe-Button');
+            const subscribeSpace = document.querySelector('.js-subscribeSpace')
+            let unsubscribeButton;
+            let subscribeCondition = localStorage.getItem('subscribed') || false;
+            if (subscribeCondition === 'true'){
+                subscribe();
+            }
+            subscribeButton.addEventListener('click',function(){
+                subscribe();
+            });
+            function subscribe(){
+                subscribeButton.innerHTML = 'Subscribed';
+                subscribeButton.classList.replace('subscribeButtonDesignDefault','subscribeButtonDesignSub')
+                subscribeCondition = localStorage.setItem('subscribed','true');
+                if (!unsubscribeButton){
+                    unsubscribeButton = document.createElement('button');
+                    unsubscribeButton.textContent = "X";
+                    unsubscribeButton.addEventListener('click',function(){
+                        unsubscribe();
+                    });
+                    subscribeSpace.appendChild(unsubscribeButton);
+                }
+            }
+            function unsubscribe(){
+                subscribeButton.innerHTML = 'Subscribe';
+                subscribeButton.classList.replace('subscribeButtonDesignSub','subscribeButtonDesignDefault')
+                subscribeCondition = localStorage.setItem('subscribed','false');
+                unsubscribeButton.remove();
+                unsubscribeButton = null;
+            }
+            
+        </script>
+    </body>
+</html>

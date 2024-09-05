@@ -218,6 +218,7 @@ hello
 <input type="submit" value="Submit">
 <input type="reset" value="Reset">
 <input type="button" value="Click Me" onclick="alert('Button clicked!')">
+<!-- We can also do onkeydown, where js code can be ran when we have selected something and then press a key -->
 
 <!-- Hidden Inputs -->
 <input type="hidden" name="userId" value="12345">
@@ -358,3 +359,5 @@ alt = "HTML"
 </iframe>
 ```
 - Allows for the embedding of other documents into the page such as other html files or Spotify playlists for example
+
+
