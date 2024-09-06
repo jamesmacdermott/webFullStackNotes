@@ -145,3 +145,8 @@ cursor: zoom-in;
 transition: 0.5s;
 ```
 - Ensures all transitions the element goes through happens over the specified time
+
+We can remove solid backgrounds, mostly while, by merging it with another background
+```CSS
+mix-blend-mode: color-burn;
+```

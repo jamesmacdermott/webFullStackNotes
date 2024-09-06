@@ -13,3 +13,9 @@
     background-color: red;
     color: white;
 }
+.unsubscribeButton{
+    border: none;
+    padding: 8px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -32,5 +32,58 @@ h1:: after{
 ```
 
 
+We can add a hover animation where our item gets underlined
+
+```CSS
+navItem {
+
+    position: relative; /* This ensures the ::before pseudo-element is positioned relative to the navItem */
+
+    color: white;
+
+    font-family: Rubik;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+}
+
+  
+
+.navItem::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 2px;
+
+    background: #fff;
+
+    border-radius: 5px;
+
+    transform: scaleX(0); /* Initially hidden */
+
+    transition: all 0.5s ease;
+
+    bottom: 0;
+
+    left: 0;
+
+    transform-origin: left;
+
+}
+
+  
+
+.navItem:hover::before {
+
+    transform: scaleX(1.01); /* Expands on hover */
+
+}
+```
 
 
