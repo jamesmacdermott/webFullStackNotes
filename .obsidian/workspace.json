@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/CSS/Colour Schemes.md",
+                "file": "Frontend/JavaScript/7. Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/CSS/Colour Schemes.md",
+                "file": "Frontend/JavaScript/7. Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/CSS/Colour Schemes.md",
+                "file": "Frontend/JavaScript/7. Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/CSS/Colour Schemes.md"
+                "file": "Frontend/JavaScript/7. Functions.md"
               }
             }
           }
@@ -146,41 +146,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8761959d5b7e38c2",
+  "active": "2c866bb34978a77e",
   "lastOpenFiles": [
+    "Frontend/JavaScript/9. DOM (Document Object Model).md",
+    "Frontend/JavaScript/10. Combining CSS.md",
+    "Frontend/JavaScript/11. Arrays & Loops.md",
+    "Frontend/JavaScript/7. Functions.md",
+    "Frontend/JavaScript/8. Objects.md",
+    "Frontend/JavaScript/6. Conditions.md",
+    "Frontend/JavaScript/4. Variables.md",
+    "Frontend/JavaScript/5. Buttons.md",
+    "Frontend/JavaScript/3. Built-in Objects.md",
+    "Frontend/HTML/Start of Dock.md",
+    "Frontend/CSS/Specific Elements/Loading Icon Animations.md",
+    "codeMade/Personal/loops/script.js",
+    "codeMade/Personal/loops/styles.css",
+    "codeMade/Personal/loops/toDoList.html",
+    "codeMade/Personal/loops",
+    "codeMade/Personal/Loops",
+    "codeMade/Personal/conditions/Loops",
+    "codeMade/Personal/cssDesigns/imgs/blackCar.jpg",
+    "Frontend/CSS/Colour Schemes.md",
+    "codeMade/Personal/cssDesigns/imgs/superman.jpg",
+    "codeMade/Personal/cssDesigns/imgs/superman.jpg.crdownload",
+    "codeMade/Personal/cssDesigns/imgs/spiderman.jpg",
+    "codeMade/Personal/cssDesigns/imgs/ironman.jpg",
+    "codeMade/Personal/cssDesigns/imgs/batman.jpg",
+    "codeMade/Personal/cssDesigns/imgs/batman.jpg.crdownload",
+    "codeMade/Personal/cssDesigns/imgs/thor.jpg",
+    "codeMade/Personal/cssDesigns/imgs",
+    "codeMade/Personal/cssDesigns/New folder",
     "Pasted image 20240906223353.png",
     "Images/Pasted image 20240906222902.png",
     "Images/Pasted image 20240906222811.png",
     "Images/Pasted image 20240906222740.png",
     "Frontend/CSS/Design.md",
-    "Frontend/CSS/Colour Schemes.md",
     "Frontend/CSS/Specific Elements/Buttons.md",
-    "Frontend/JavaScript/7. Functions.md",
-    "Frontend/JavaScript/11. Arrays & Loops.md",
-    "Frontend/JavaScript/6. Conditions.md",
-    "Frontend/JavaScript/10. Combining CSS.md",
-    "codeMade/Personal/objects-productsPageWithJSON",
-    "codeMade/Personal/CCS&JS - subscribe button.html",
-    "codeMade/Personal/cssJs/subscribeButton.css",
-    "codeMade/Online/Variables/Variables-cartexample.html",
-    "codeMade/Online/Variables/Variables-cartexample_files/audio-devices.html",
-    "codeMade/Online/Variables/Variables-cartexample_files",
-    "codeMade/Online/Variables",
-    "codeMade/Online/New folder",
-    "codeMade/Personal/DOM/DOM-subscribeButton.html",
-    "codeMade/Personal/DOM/DOM-passwordCheckWithKeyboardEnter.html",
-    "Frontend/JavaScript/9. DOM (Document Object Model).md",
-    "Frontend/JavaScript/3. Built-in Objects.md",
-    "Frontend/JavaScript/5. Buttons.md",
-    "Images/Pasted image 20240905191610.png",
     "Frontend/HTML/Tags.md",
-    "Images/Pasted image 20240905184453.png",
-    "Images/Pasted image 20240905184437.png",
-    "Images/Pasted image 20240905184355.png",
-    "Frontend/JavaScript/8. Objects.md",
     "Frontend/Videos Watched.md",
     "Frontend/JavaScript/2. Strings and Methods.md",
-    "Frontend/JavaScript/4. Variables.md",
     "Frontend/JavaScript/1. Basics.md"
   ]
 }

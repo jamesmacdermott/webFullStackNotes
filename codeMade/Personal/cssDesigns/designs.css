@@ -116,3 +116,93 @@ button{
     height: 50%;
     background-color: rgb(94.739% 81.266% 69.405%);
 }
+
+
+
+.herosSelectBox{
+    flex: 1;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 90%;
+    max-width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    transition: all 300ms;
+}
+.heroCard{
+    height: 100%;
+    transition: all 300ms;
+    cursor: pointer;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+}
+
+.heroCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.heroCard:nth-child(odd){
+    translate: 0 -20px;
+}
+.heroCard:nth-child(even){
+    translate: 0 20px;
+}
+.herosSelectBox:hover >
+.heroCard:not(:hover){
+    filter: grayscale(100%);
+}
+.heroCard:hover{
+    width: 30%;
+}
+
+.interactiveCard{
+    width: 200px;
+    aspect-ratio: 1/0.7;
+    border-radius: 8px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.interactiveCard .carImageBox{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.interactiveCard .carImageBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}
+.interactiveCard::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.interactiveCard:hover img{
+    filter: grayscale(1) brightness(0.4);
+}
+.carImageBox:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+.textContent{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
