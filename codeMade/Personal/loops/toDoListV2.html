@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ToDoListv2</title>
+    <link rel="stylesheet" href="styles2.css" />
+</head>
+<body>
+    <div class="inputs">
+        <header><h2>To Do List</h2></header>
+        <div class="entrySection">
+            <input type="text" placeholder="Task Name..." id="js-nameEntry"/>
+            <input type="date" id="js-dateEntry"/>
+            <input type="time" id="js-timeEntry"/>
+            <input type="text" placeholder="Description..." id="js-descEntry"/>
+        </div>
+        <button class="addButton js-addButton">ADD</button>
+    </div>
+    <div class="taskHeadersBox">
+        <div class="displayColumn">
+            <div class="columnHeader">
+                Text
+            </div>
+            <div id="textItems"></div>
+        </div>
+        <div class="displayColumn">
+            <div class="columnHeader">
+                Date
+            </div>
+            <div id="dateItems"></div>
+        </div>
+        <div class="displayColumn">
+            <div class="columnHeader">
+                Time
+            </div>
+            <div id="timeItems"></div>
+        </div>
+        <div class="displayColumn descriptionColumn">
+            <div class="columnHeader">
+                Desc
+            </div>
+            <div id="descItems"></div>
+        </div>
+        <div class="deleteColumn">
+            <div class="columnHeader">
+                Delete
+            </div>
+            <div id="deleteItems">
+                <div class="deleteItem"></div>
+            </div>
+        </div>
+    </div>
+    <script src = "script2.js"></script>
+</body>
+</html>

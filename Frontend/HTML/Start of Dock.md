@@ -33,7 +33,7 @@ Display content held in body tags:
 ```HTML
 <!-- Adding comments -->
 ```
-- How to add comments in HTML code#
+- How to add comments in HTML code
 
 
 
