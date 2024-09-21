@@ -1,0 +1,1 @@
+export const statement = 'Text From File 2';
