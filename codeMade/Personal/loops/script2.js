@@ -20,7 +20,7 @@ function displayTasks(){
         });
 
         deleteSec.appendChild(newDeleteButton);
-        Items[4].appendChild(deleteSec);
+        Items[4].appendChild(deleteSec);  
 
     });
 }
