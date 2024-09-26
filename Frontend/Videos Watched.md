@@ -23,3 +23,7 @@
 - Introduction, uses and background : https://youtu.be/NSxGZ7fC5AA?si=WmNFfHj-SbUEHdfc
 
 - JavaScript beginner to pro (22 hour video) : https://youtu.be/EerdGm-ehJQ?si=-RoLqTYGNkU-meeA
+
+### Hosting
+
+- GitHub Pages : https://youtu.be/p1QU3kLFPdg?si=VgOUVw0iWqyIoF_v
