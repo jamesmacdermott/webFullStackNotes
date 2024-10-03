@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*outline: 1px solid red; */
+}
+
+/*MEDIA*/
+
+@media screen and (min-width: 1100px){
+    .product{
+        width: 50% !important;
+    }
+}
+
+/*ALL */
+body{
+    background-color: #d4c887;
+    font-family: 'Roboto Mono',monospace;
+}
+header{
+    height: 10vh;
+    width: 100%;
+}
+
+/*Utility */
+
+.centerMiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.liked{
+    color: rgb(153, 0, 0);
+}
+
+/*Formatting Sections */
+#mainContent{
+    height: 90vh;
+    width: 100%;
+}
+#pageNameSection{
+    width: 40%;
+    height: 100%;
+}
+#productsSection{
+    width: 60%;
+    height: 100%;
+}
+.headingSubtext{
+    font-size: 1.5vw;
+    font-weight: 500;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+.headingSubtext:hover{
+    transform: translateX(5px);
+}
+#nameSectionText h1{
+    font-size: clamp(20px,5vw,35px);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+#nameSectionText h1:hover{
+    transform: translateY(-5px);
+}
+
+/*NavBar */
+nav{
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    column-gap: 100px;
+    margin-top: 5px;
+}
+
+.navItem{
+    font-size: clamp(20px,1.5vw,32px);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.navItem::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.3s ease-in-out;
+}
+.navItem:hover::before{
+    width: 100%;
+}
+
+.navItem img{
+    width: clamp(30px,3vw,32px);
+    height: clamp(30px,3vw,32px);
+}
+
+/* Products*/
+
+.productsHolder{
+    width: 90%;
+    height: 90%;
+}
+.product{
+    height: 33%;
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.product:hover{
+    background-color: #c4b97d;
+}
+.productInfoBox{
+    width: 92%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productImgBox{
+    width: 50%;
+    height: 100%;
+}
+.productImgBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.productTextBox{
+    width: 50%;
+    height: 90%;
+}
+
+.productInfo{
+    list-style: none;
+    height: 80%;
+    width: 100%;
+    font-weight: 600;
+}
+
+.likeCartBox{
+    column-gap: 50%;
+    height: 20%;
+}
+.shoppingIcon{
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+}
+.heart:hover{
+    color: rgb(153, 0, 0);
+}
+.basket:hover{
+    color: rgb(51, 78, 174);
+}
