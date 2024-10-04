@@ -110,7 +110,7 @@ function createPageProducts(productObject,addIcons){
 
 }
 // new Product('name','type','$price',true,"imgs/japan1TSHIRT.jpg")
-const products = [new Product('Harry','Organs','$5000000',true,"imgs/japan1TSHIRT.jpg")]
+const products = [new Product('Harry','Organs','$5000000',true,"imgs/japan1TSHIRT.jpg"),new Product('Harry','Organs','$5000000',true,"imgs/japan1TSHIRT.jpg"),new Product('Harry','Organs','$5000000',true,"imgs/japan1TSHIRT.jpg"),new Product('Harry','Organs','$5000000',true,"imgs/japan1TSHIRT.jpg")]
 products.forEach(item =>{
     createPageProducts(item,true);
 });

@@ -113,6 +113,11 @@ nav ul{
 .productsHolder{
     width: 90%;
     height: 90%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0;
 }
 .product{
     height: 33%;
