@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/CSS/Positioning.md",
+                "file": "Frontend/JavaScript/11. Arrays & Loops.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/CSS/Positioning.md",
+                "file": "Frontend/JavaScript/11. Arrays & Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/CSS/Positioning.md",
+                "file": "Frontend/JavaScript/11. Arrays & Loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/CSS/Positioning.md"
+                "file": "Frontend/JavaScript/11. Arrays & Loops.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "2c866bb34978a77e",
   "lastOpenFiles": [
+    "Frontend/JavaScript/7. Functions.md",
+    "Frontend/CSS/Positioning.md",
     "Frontend/JavaScript/16. OOP.md",
     "Frontend/JavaScript/15. Testing Frameworks (Jasmine).md",
     "Frontend/JavaScript/14. Testing.md",
@@ -168,10 +170,8 @@
     "Frontend/JavaScript/11. Arrays & Loops.md",
     "Frontend/JavaScript/9. DOM (Document Object Model).md",
     "Frontend/JavaScript/10. Combining CSS.md",
-    "Frontend/JavaScript/7. Functions.md",
     "Frontend/JavaScript/6. Conditions.md",
     "Frontend/JavaScript/8. Objects.md",
-    "Frontend/CSS/Positioning.md",
     "Frontend/HTML/Tags.md",
     "Frontend/HTML/Start of Dock.md",
     "Frontend/JavaScript/4. Variables.md",
