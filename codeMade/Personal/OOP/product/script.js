@@ -1,6 +1,6 @@
 const productsHolder = document.querySelector('.productsHolder')
 const productsSwiperFooter = document.getElementById('productsSwiperFooter')
-let viewingMainPage = true; viewingLikedPage = false; viewingBasketPage = false; let showXProducts; let productBulks;
+let viewingMainPage = true; viewingLikedPage = false; viewingBasketPage = false; let showXProducts; let productBulks; let productSetSelected = 0; 
 
 class Product {
     constructor(name, type, price, isOffer, image) {
@@ -106,34 +106,47 @@ function createSliderButtons() {
     }
 
     productBulks = chunkArray(products, showXProducts);
+    let swiperObjects = [];
     productBulks.forEach((productSet, index) => {
         let swiperIcon = document.createElement('i');
         swiperIcon.classList.add('fa-solid', 'fa-circle', 'swiperIcon');
         swiperIcon.addEventListener('click', function () {
-            productsHolder.classList.add('fade-out');
-            setTimeout(() => {
-                productsHolder.innerHTML = '';
-                productSet.forEach((p) => createPageProducts(p, !viewingBasketPage));
-                productsHolder.classList.remove('fade-out');
-            }, 500); // Fade-out transition duration
+            if (productSetSelected !== index){
+                productSetSelected = index;
+                swiperObjects.forEach((swiper) => {
+                    swiper.classList.remove('swiperIconSelected');
+                });
+                swiperIcon.classList.add('swiperIconSelected');
+                productsHolder.classList.add('fade-out');
+                setTimeout(() => {
+                    productsHolder.innerHTML = '';
+                    productSet.forEach((p) => createPageProducts(p, !viewingBasketPage));
+                    productsHolder.classList.remove('fade-out');
+                }, 500); // Fade-out transition duration
+            }
         });
+        swiperObjects.push(swiperIcon)
+
         productsSwiperFooter.appendChild(swiperIcon);
     });
+    return [swiperObjects,productSetSelected];
 }
 
 window.addEventListener('resize', function () {
     if (viewingMainPage) {
-        showPageProducts();
         createSliderButtons();
+        showPageProducts();
     }
 });
 
 window.onload = function () {
-    createSliderButtons();
-    showPageProducts();
+    let [s,_] = createSliderButtons();
+    console.log(s)
+    s[0].classList.add('swiperIconSelected');
+    showPageProducts(false);
 };
 
-function showPageProducts() {
+function showPageProducts(index) {
     productsHolder.innerHTML = "";
     if (window.innerWidth < 1100) {
         showXProducts = 3;

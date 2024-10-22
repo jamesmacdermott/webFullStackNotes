@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/JavaScript/11. Arrays & Loops.md",
+                "file": "React/SETUP.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SETUP"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/JavaScript/11. Arrays & Loops.md",
+                "file": "React/INTRO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for INTRO"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/JavaScript/11. Arrays & Loops.md",
+                "file": "React/INTRO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from INTRO"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/JavaScript/11. Arrays & Loops.md"
-              }
+                "file": "React/INTRO.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of INTRO"
             }
           }
         ]
@@ -148,6 +164,11 @@
   },
   "active": "2c866bb34978a77e",
   "lastOpenFiles": [
+    "zImages/Pasted image 20241018123622.png",
+    "Frontend/JavaScript/11. Arrays & Loops.md",
+    "React/SETUP.md",
+    "React/React Notes",
+    "React/React Notes",
     "Frontend/JavaScript/7. Functions.md",
     "Frontend/CSS/Positioning.md",
     "Frontend/JavaScript/16. OOP.md",
@@ -165,9 +186,6 @@
     "codeMade/Personal/New folder",
     "Frontend/Hosting.md",
     "Frontend/Videos Watched.md",
-    "codeMade/Personal/modules/externalLibraries",
-    "codeMade/Personal/modules/New folder",
-    "Frontend/JavaScript/11. Arrays & Loops.md",
     "Frontend/JavaScript/9. DOM (Document Object Model).md",
     "Frontend/JavaScript/10. Combining CSS.md",
     "Frontend/JavaScript/6. Conditions.md",
@@ -186,12 +204,11 @@
     "codeMade/Personal/cssDesigns/imgs/batman.jpg",
     "codeMade/Personal/cssDesigns/imgs/thor.jpg",
     "Pasted image 20240906223353.png",
-    "Images/Pasted image 20240906222902.png",
-    "Images/Pasted image 20240906222811.png",
-    "Images/Pasted image 20240906222740.png",
+    "zImages/Pasted image 20240906222902.png",
+    "zImages/Pasted image 20240906222811.png",
+    "zImages/Pasted image 20240906222740.png",
     "Frontend/CSS/Design.md",
     "Frontend/CSS/Specific Elements/Buttons.md",
-    "Frontend/JavaScript/2. Strings and Methods.md",
-    "Frontend/JavaScript/1. Basics.md"
+    "Frontend/JavaScript/2. Strings and Methods.md"
   ]
 }
